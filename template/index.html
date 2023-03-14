@@ -1,0 +1,15 @@
+<!-- Path: climate_app/template/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Climate App</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <h1>Climate App</h1>
+    <p>Enter a city name to get the weather forecast</p>
+    <form action="/weather" method="post">
+        <input type="text" name="city" placeholder="City Name">
+        <input type="submit" value="Get Weather">
+    </form>
+</html>
